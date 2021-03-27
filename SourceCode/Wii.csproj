@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C03E6E2D-4F16-4477-8086-E7D8632045FF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wii</RootNamespace>
+    <AssemblyName>Wii</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>wii_logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CircularProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DSTSVOutput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSTSVOutput.Designer.cs">
+      <DependentUpon>DSTSVOutput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportRanking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportRanking.Designer.cs">
+      <DependentUpon>ImportRanking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportRecommendSong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportRecommendSong.Designer.cs">
+      <DependentUpon>ImportRecommendSong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrchTSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrchTSV.Designer.cs">
+      <DependentUpon>OrchTSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchByID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchByID.Designer.cs">
+      <DependentUpon>SearchByID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UCSqlConnection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCSqlConnection.Designer.cs">
+      <DependentUpon>UCSqlConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitingForm.Designer.cs">
+      <DependentUpon>WaitingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WiiMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WiiMain.Designer.cs">
+      <DependentUpon>WiiMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WiiSystemBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="DSTSVOutput.resx">
+      <DependentUpon>DSTSVOutput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportRanking.resx">
+      <DependentUpon>ImportRanking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportRecommendSong.resx">
+      <DependentUpon>ImportRecommendSong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrchTSV.resx">
+      <DependentUpon>OrchTSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchByID.resx">
+      <DependentUpon>SearchByID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCSqlConnection.resx">
+      <DependentUpon>UCSqlConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitingForm.resx">
+      <DependentUpon>WaitingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WiiMain.resx">
+      <DependentUpon>WiiMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Utilities\Utilities.csproj">
+      <Project>{38e3a8e0-1bd6-46a9-90eb-7832956007df}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="WiiCommon\WiiCommon.csproj">
+      <Project>{8af4f12f-eb06-4614-81ee-782e09047798}</Project>
+      <Name>WiiCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="WiiController\WiiController.csproj">
+      <Project>{3c9b7b3d-7641-442a-a2dd-302bf43eea74}</Project>
+      <Name>WiiController</Name>
+    </ProjectReference>
+    <ProjectReference Include="WiiObjects\WiiObjects.csproj">
+      <Project>{ba6478ec-08cf-48cb-8311-0ebd1d72f562}</Project>
+      <Name>WiiObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <Content Include="wii_logo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

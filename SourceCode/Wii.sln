@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wii", "Wii.csproj", "{C03E6E2D-4F16-4477-8086-E7D8632045FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{38E3A8E0-1BD6-46A9-90EB-7832956007DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiiController", "WiiController\WiiController.csproj", "{3C9B7B3D-7641-442A-A2DD-302BF43EEA74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiiObjects", "WiiObjects\WiiObjects.csproj", "{BA6478EC-08CF-48CB-8311-0EBD1D72F562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiiCommon", "WiiCommon\WiiCommon.csproj", "{8AF4F12F-EB06-4614-81EE-782E09047798}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WiiSetup", "WiiSetup\WiiSetup.vdproj", "{8691E1A5-6FDA-4263-B84B-C475ECF9A306}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C03E6E2D-4F16-4477-8086-E7D8632045FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03E6E2D-4F16-4477-8086-E7D8632045FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03E6E2D-4F16-4477-8086-E7D8632045FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C03E6E2D-4F16-4477-8086-E7D8632045FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03E6E2D-4F16-4477-8086-E7D8632045FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E3A8E0-1BD6-46A9-90EB-7832956007DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E3A8E0-1BD6-46A9-90EB-7832956007DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E3A8E0-1BD6-46A9-90EB-7832956007DF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{38E3A8E0-1BD6-46A9-90EB-7832956007DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E3A8E0-1BD6-46A9-90EB-7832956007DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C9B7B3D-7641-442A-A2DD-302BF43EEA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9B7B3D-7641-442A-A2DD-302BF43EEA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9B7B3D-7641-442A-A2DD-302BF43EEA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9B7B3D-7641-442A-A2DD-302BF43EEA74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6478EC-08CF-48CB-8311-0EBD1D72F562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6478EC-08CF-48CB-8311-0EBD1D72F562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6478EC-08CF-48CB-8311-0EBD1D72F562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6478EC-08CF-48CB-8311-0EBD1D72F562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF4F12F-EB06-4614-81EE-782E09047798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF4F12F-EB06-4614-81EE-782E09047798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF4F12F-EB06-4614-81EE-782E09047798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF4F12F-EB06-4614-81EE-782E09047798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8691E1A5-6FDA-4263-B84B-C475ECF9A306}.Debug|Any CPU.ActiveCfg = Release
+		{8691E1A5-6FDA-4263-B84B-C475ECF9A306}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

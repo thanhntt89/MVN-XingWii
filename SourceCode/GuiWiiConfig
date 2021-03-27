@@ -1,0 +1,45 @@
+############################################################################################################
+                                             SYSTEM CONFIGURATION
+############################################################################################################
+
+Wii/Properties/Setting.settings
+
+#Config SQL Connection Fields: 
+CONNECT_DDETimeout_CheckConnecting
+CONNECT_Server
+CONNECT_DBName
+CONNECT_UserID
+CONNECT_Password
+
+#Config moudule 3DSTVOutput Fields: 
+ThreeDSTSV_出力パス 
+ThreeDSTSV_ランキングボード用パス 
+ThreeDSTSV_歌手変更履歴取得元歌手TSVパス
+ThreeDSTSV_歌手取込配置ファイル 
+ThreeDSTSV_歌手変更履歴取得元コンテンツTSVパス 
+ThreeDSTSV_コンテンツ取込配置ファイル 
+ThreeDSTSV_変換バッチファイル 
+ThreeDSTSV_変換バッチログファイル 
+ThreeDSTSV_ログファイル 
+ThreeDSTSV_収集リストパス 
+
+#Config moudule UTSV Fields:
+UTSV出力_おすすめ曲 
+UTSV出力_ナビジャンル曲表 
+UTSV出力_ナビジャンル歌手表 
+UTSV出力_ナビ楽曲マスタ表 
+UTSV出力_ナビ選曲番号表
+UTSV出力_ランキングファイル 
+UTSV出力_ログファイル 
+UTSV出力_入力パス
+UTSV出力_出力パス 
+UTSV出力_年間ランキング
+UTSV出力_歌手削除チェックファイルパス 
+UTSV出力_比較元歌手TSVパス 
+UTSV出力_総合ランキング 
+UTSV出力おすすめ曲パス 
+UTSV出力総合ランキング 
+UTSVRecommendSongServerFilePath 
+
+#Config Common Fields
+Wii_WorkFolder 

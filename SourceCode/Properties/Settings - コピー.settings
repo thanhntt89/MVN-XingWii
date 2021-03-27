@@ -1,0 +1,119 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Wii.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WiiConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=PHUONGTHAO-PC;Initial Catalog=Wii;Persist Security Info=True;User ID=sa;Password=@dmin123;Connect Timeout=300&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=PHUONGTHAO-PC;Initial Catalog=Wii;Persist Security Info=True;User ID=sa;Password=@dmin123;Connect Timeout=300</Value>
+    </Setting>
+    <Setting Name="ThreeDSTSV_出力パス" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\XING-MVN\WiiDB\output\</Value>
+    </Setting>
+    <Setting Name="ThreeDSTSV_ランキングボード用パス" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\ZZXSVMYV\Desktop\LINH\WiiDB\hailt\rank\</Value>
+    </Setting>
+    <Setting Name="ThreeDSTSV_歌手変更履歴取得元歌手TSVパス" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\ZZXSVMYV\Desktop\LINH\WiiDB\hailt\history\singlebefore\3DS歌手.tsv</Value>
+    </Setting>
+    <Setting Name="ThreeDSTSV_歌手取込配置ファイル" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\ZZXSVMYV\Desktop\LINH\WiiDB\hailt\history\single\tbl_3DS前回歌手.txt</Value>
+    </Setting>
+    <Setting Name="ThreeDSTSV_歌手変更履歴取得元コンテンツTSVパス" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\ZZXSVMYV\Desktop\LINH\WiiDB\hailt\history\contentbefore\3DSコンテンツ.tsv</Value>
+    </Setting>
+    <Setting Name="ThreeDSTSV_コンテンツ取込配置ファイル" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\ZZXSVMYV\Desktop\LINH\WiiDB\hailt\history\content\tbl_3DS前回コンテンツ.txt</Value>
+    </Setting>
+    <Setting Name="ThreeDSTSV_変換バッチファイル" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\eb-server\x-drv\K-tai\digidoco\upload\tsv\3DS\3DS_TSV変換.vbs</Value>
+    </Setting>
+    <Setting Name="ThreeDSTSV_変換バッチログファイル" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\XING-MVN\WiiDB\output\ログ\処理結果.log</Value>
+    </Setting>
+    <Setting Name="ThreeDSTSV_ログファイル" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\XING-MVN\WiiDB\output\ログ\TSV出力結果.txt</Value>
+    </Setting>
+    <Setting Name="ThreeDSTSV_収集リストパス" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\XING-MVN\WiiDB\output\収集リスト\</Value>
+    </Setting>
+    <Setting Name="UTSV出力_出力パス" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\XING-MVN\WiiDB\output\orch\</Value>
+    </Setting>
+    <Setting Name="UTSV出力_ログファイル" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\XING-MVN\WiiDB\output\orch\ログ\TSV出力結果.txt</Value>
+    </Setting>
+    <Setting Name="UTSV出力_入力パス" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:Access\Wii\</Value>
+    </Setting>
+    <Setting Name="UTSV出力_おすすめ曲" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\maprj\Wii\recommend_song_</Value>
+    </Setting>
+    <Setting Name="UTSV出力_総合ランキング" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\maprj\Wii\cdn_wjk_total_month_150_</Value>
+    </Setting>
+    <Setting Name="UTSV出力_年間ランキング" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\maprj\Wii\year_ranking_.txt</Value>
+    </Setting>
+    <Setting Name="UTSV出力_ランキングファイル" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\maprj\Wii\ranking_week</Value>
+    </Setting>
+    <Setting Name="UTSV出力_ナビジャンル曲表" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\maprj\Wii\NAVIDB資料\TBL_GENRE_SONG.txt</Value>
+    </Setting>
+    <Setting Name="UTSV出力_ナビジャンル歌手表" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\maprj\Wii\NAVIDB資料\TBL_GENRE_SINGER.txt</Value>
+    </Setting>
+    <Setting Name="UTSV出力_ナビ楽曲マスタ表" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\maprj\Wii\NAVIDB資料\TBL_SONG.txt</Value>
+    </Setting>
+    <Setting Name="UTSV出力_ナビ選曲番号表" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\maprj\Wii\NAVIDB資料\TBL_SONG_CODE.txt</Value>
+    </Setting>
+    <Setting Name="UTSV出力_比較元歌手TSVパス" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\maprj\Wii\WU歌手.tsv</Value>
+    </Setting>
+    <Setting Name="UTSV出力_歌手削除チェックファイルパス" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\maprj\Orch\歌手削除チェックファイル.txt</Value>
+    </Setting>
+    <Setting Name="CONNECT_DDETimeout" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1800</Value>
+    </Setting>
+    <Setting Name="CONNECT_CmmandTimeOut" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1500</Value>
+    </Setting>
+    <Setting Name="Wii_WorkFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Work</Value>
+    </Setting>
+    <Setting Name="UTSV出力おすすめ曲パス" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\Projects\2020\Wii\bin\Debug\Work</Value>
+    </Setting>
+    <Setting Name="ImportRecommendSongServerFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\{0}\Maprj\xing\orchestra\TBL_RECOMMENDSONG_CAPIO.txt</Value>
+    </Setting>
+    <Setting Name="UTSV出力総合ランキング" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\maprj\Wii\cdn_wjk_total_month_150_{0}.txt</Value>
+    </Setting>
+    <Setting Name="CONNECT_DDETimeout_CheckConnecting" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="UTSVRecommendSongServerFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\{0}\Maprj\xing\orchestra\TBL_RecommendSong.txt</Value>
+    </Setting>
+    <Setting Name="CONNECT_Server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DESKTOP-7U8MJV3\SQLEXPRESS</Value>
+    </Setting>
+    <Setting Name="CONNECT_DBName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Wii</Value>
+    </Setting>
+    <Setting Name="CONNECT_UserID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">wii01</Value>
+    </Setting>
+    <Setting Name="CONNECT_Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hailt1234</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
